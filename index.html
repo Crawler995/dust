@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @import 'https://fonts.googleapis.com/css?family=Lato:300';
+
+    body {
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+
+      font-family: 'Lato';
+    }
+
+    .frame-rate {
+      position: absolute;
+      color: #fff;
+    }
+
+    .title {
+      position: absolute;
+      width: 100%;
+      top: 100px;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+
+  <title>dust</title>
+
+  <script src="./src/lib/p5.min.js"></script>
+</head>
+<body>
+  <div class="frame-rate">17</div>
+  <div class="title">Loading...</div>
+
+  <audio src="./assets/Where is my mind.mp3"></audio>
+
+  <script src="./src/audio.js"></script>
+  <script src="./src/colorboard.js"></script>
+  <script src="./src/Dust.js"></script>
+  <script src="./src/Planet.js"></script>
+
+  <script src="./src/index.js"></script>
+</body>
+</html>
